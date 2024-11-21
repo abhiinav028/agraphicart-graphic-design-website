@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Work from './components/work/work';
 
 import Service from './components/Services/Services';
-import Hero from './components/hero/Hero';
+import Hero from './components/Hero/Hero';
 import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/portfolio';
 
