@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 // import Work from './components/work/work';
 import Service from './components/Services/Services';
 import Hero from './components/Hero/Hero';
+import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Portfolio from './components/portfolio/portfolio';
 
