@@ -1,0 +1,146 @@
+
+
+:root {
+  --navbar-height: 80px; 
+}
+
+
+/* body {
+
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  padding-top: var(--navbar-height); 
+  background-color: #e5e5e5;
+} */
+.video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.navbar {
+  padding: 15px 50px;
+  position: fixed;
+  top: -520px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  z-index: 1000; /* Keeps navbar on top */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #37353491; 
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin: 0;
+  cursor: pointer;
+  margin-left: 130px;
+}
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+}
+
+.nav-connect {
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #ffffff;
+  /* background: linear-gradient(267deg, #ff6700 0.36%, #f9bc2c); */
+  background-color:#37353491 ;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin-left:120px;
+
+
+ 
+}
+.nav-mode {
+  padding: 15px 30px;
+color: #ffffff;
+  border-radius: 50px;
+  /* background: linear-gradient(267deg, #ff6700 0.36%, #f9bc2c); */
+  background-color:#37353491 ;
+  font-size: 17px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin-right:-200px;
+  margin-left: 40px;
+}
+.navbar-logo{
+  padding: 10px 10px;
+  font-size:8px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin-left:-500px;
+  scale: 12%;
+  margin-right: -700px;
+}
+
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+.nav-:hover {
+  transform: scale(1.05);
+}
+/* Dropdown Menu Styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b6b0ae61;
+  min-width: 200px;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content li {
+  padding: 12px 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  border: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: #e48b04;
+  border-radius: 20px;
+}
+
+.nav-menu a:hover {
+  color: white;
+  background-color: #e48b04;
+  border-radius: 20px;
+}

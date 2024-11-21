@@ -1,0 +1,92 @@
+.type{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-Typography{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg,#f74c06 0.36%, #f9bc2c);
+     cursor: pointer;
+ }
+
+.type-Branding{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg, #f74c06 0.36%, #f9bc2c );
+    cursor: pointer;
+}
+.type-Poster{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
+    cursor: pointer;
+}
+.type-Graphic-Design{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
+    cursor: pointer;
+} 
+
+.type-Logo{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
+    cursor: pointer;
+} 
+.type-Logo1{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
+    cursor: pointer;
+} 
+
+.type-Logo2{
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background:linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
+    cursor: pointer;
+}
+.type-Typography:hover{
+    border: 2px solid #3e196e  ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+} 
+.type-Branding:hover{
+    border: 2px solid #3e196e  ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+}
+.type-Poster:hover{
+    border: 2px solid #3e196e  ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+} 
+.type-Graphic-Design:hover{
+    border: 2px solid #3e196e  ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+}
+.type-Logo:hover{
+    border: 2px solid #3e196e ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+}
+.type-Logo1:hover{
+    border: 2px solid #3e196e ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+}
+.type-Logo2:hover{
+    border: 2px solid #3e196e ;
+    background:linear-gradient(264deg, #5a06f7 0.36%, #f9bc2c);
+}
+
+
+
