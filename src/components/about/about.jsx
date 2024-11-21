@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./About.css";
 import profile from "../../assets/profile_image.png";
 
@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className="about-right">
               <p>
-                Hi, I'm Abhinav, a passionate graphic designer with 2.5 years of
+                Hi, Im Abhinav, a passionate graphic designer with 2.5 years of
                 experience in creating stunning visuals, logos, and user-friendly
                 designs. I specialize in branding, poster design, and UI/UX that
                 captivates audiences.
