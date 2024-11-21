@@ -17,8 +17,8 @@ const AppContent = () => {
 
   return (
     <div>
-      {/* {showNavbar && <Navbar />} */}
-      {/* {showNavbar && ( */}
+      {showNavbar && <Navbar />}
+      {showNavbar && (
         <>
             <Element name="home-section">
             <Navbar />

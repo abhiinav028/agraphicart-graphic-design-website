@@ -57,7 +57,7 @@ const Service = () => {
               <i className={service.icon}></i>
               <h2>{service.title}</h2>
               <p>{service.description}</p>
-              <a href={service.link}>Learn more</a>
+              <a href={service.link}>Learn more </a>
             </div>
           ))}
         </div>
