@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Element } from 'react-scroll'; // For wrapping sections
@@ -8,12 +9,10 @@ import Hero from './components/Hero/Hero';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Portfolio from './components/portfolio/portfolio';
-
-import About from './components/about/about';
 const AppContent = () => {
-  // const location = useLocation();
+  const location = useLocation();
 
-  // const showNavbar = location.pathname !== "/poster-page" && location.pathname !== "/poster-page1";
+  const showNavbar = location.pathname !== "/poster-page" && location.pathname !== "/poster-page1";
 
   return (
     <div>
