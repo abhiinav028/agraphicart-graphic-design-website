@@ -2,11 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Element } from 'react-scroll'; // For wrapping sections
 import Navbar from './components/Navbar/Navbar';
-import Work from './components/work/work';
-
+// import Work from './components/work/work';
 import Service from './components/Services/Services';
 import Hero from './components/Hero/Hero';
-import Contact from './components/contact/Contact';
+import Contact from './components/contact/contact';
 import Portfolio from './components/portfolio/portfolio';
 
 import About from './components/about/about';
