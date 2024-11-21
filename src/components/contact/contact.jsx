@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./Contact.css";
 
@@ -28,10 +29,10 @@ function Contact() {
           (+995) 555-55-55-55
         </p>
         <div className="social-media">
-          <a href="#facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#linkedin"><i class="bi bi-behance"></i></a>
-          <a href="#instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#facebook"><i className="bi bi-facebook"></i></a>
+          <a href="#linkedin"><i className="bi bi-behance"></i></a>
+          <a href="#instagram"><i className="bi bi-instagram"></i></a>
+          <a href="#twitter"><i className="bi bi-twitter-x"></i></a>
         </div>
       </div>
       <div className="contact-form">
@@ -50,7 +51,7 @@ function Contact() {
           <div className="form-checkbox">
             <input type="checkbox" id="privacyPolicy" />
             <label htmlFor="privacyPolicy">
-              I'd like to receive more information about the company. I
+              Id like to receive more information about the company. I
               understand and agree to the <a href="#privacy">Privacy Policy</a>.
             </label>
           </div>

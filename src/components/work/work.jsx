@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './work.css';
 import Artboard14 from "../../assets/Artboard 14.jpg";
 import Artboard15 from "../../assets/Artboard 15.jpg";
