@@ -1,5 +1,5 @@
-import React from "react";
-import "./Portfolio.css";
+
+import "./portfolio.css";
 import Artboard14 from "../../assets/Artboard 14.jpg";
 import Artboard15 from "../../assets/Artboard 15.jpg";
 import Artboard17 from "../../assets/Artboard 17.jpg";
