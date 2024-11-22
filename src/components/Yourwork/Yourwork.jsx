@@ -1,5 +1,5 @@
 
-import "./portfolio.css";
+import "./Yourwork.css";
 import Artboard14 from "../../assets/Artboard 14.jpg";
 import Artboard15 from "../../assets/Artboard 15.jpg";
 import Artboard17 from "../../assets/Artboard 17.jpg";
@@ -21,9 +21,9 @@ const Portfolio = () => {
   ];
 
   return (
-    <div id="portfolio">
+    <div id="Yourwork">
       <div className="container">
-        <h1 className="mywork-title">My <span>Portfolio</span></h1>
+        <h1 className="mywork-title">Your <span>Work</span></h1>
         <div className="mywork-container">
           {portfolioItems.map((work, index) => (
             <img key={index} src={work.src} alt={work.alt} />

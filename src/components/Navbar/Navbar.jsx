@@ -59,9 +59,11 @@ const Navbar = () => {
         <div className="nav-mode">
           Mode<i className="bi bi-caret-down-fill"></i>
         </div>
-        <div className="nav-connect">
-          Connect
-        </div>
+        <Link to="/desired-path">
+  <div className="nav-connect">
+    Connect
+  </div>
+</Link>
       </div>
     </div>
     // </div>

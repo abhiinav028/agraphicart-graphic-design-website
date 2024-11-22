@@ -17,12 +17,12 @@
     margin-right: 700px;
     font-size: 50px;
     font-weight: 600;
-    margin-top: 450px;
+    margin-top: 400px;
 }
 
 .hero p {
     margin-right: 650px;
-    font-size: 15px;
+    font-size: 30px;
     margin-top: -30px;
 }
 
@@ -44,21 +44,22 @@
 
 .hero-connect {
     padding: 15px 45px;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-right: 10px;
+    margin-right: 1000px;
     background: linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
     cursor: pointer;
-    transition: all 0.3s ease-in-out; /* Adjusted to handle all transitions together */
+    transition: all 0.3s ease-in-out; 
 }
 
-.hero-formore {
+/* .hero-formore {
     padding: 15px 75px;
     border-radius: 50px;
     margin-left: 10px;
     border: 2px solid #0073ff;
     cursor: pointer;
-    transition: all 0.3s ease-in-out; /* Adjusted to handle all transitions together */
-}
+    transition: all 0.3s ease-in-out;
+} */
 
 .hero-connect:hover {
     border: 2px solid rgb(0, 132, 255);

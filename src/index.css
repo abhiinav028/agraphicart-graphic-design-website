@@ -11,3 +11,11 @@
   color: #282828;
   font-family: 'outfit';
 }
+.blocking-element {
+  pointer-events: none;
+}
+
+.interactive-area {
+  z-index: 10;
+  position: relative;
+}

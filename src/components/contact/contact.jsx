@@ -5,9 +5,9 @@ import "./contact.css";
 function Contact() {
   return (
     <div className="contact-container">
-  
+      {/* Contact Information Section */}
       <div className="contact-info">
-      <h2>Get in touch</h2>
+        <h2>Get in touch</h2>
         <p>
           <strong>Visit us</strong>
           <br />
