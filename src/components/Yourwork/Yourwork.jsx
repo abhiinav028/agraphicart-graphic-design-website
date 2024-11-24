@@ -1,6 +1,6 @@
 
 import "./Yourwork.css";
-import Artboard14 from "../../assets/Artboard 14.jpg";
+import Artboard14 from "../../assets/black blue.png";
 import Artboard15 from "../../assets/Artboard 15.jpg";
 import Artboard17 from "../../assets/Artboard 17.jpg";
 import BlackBlue from "../../assets/black blue.png";
@@ -10,8 +10,8 @@ import Artboard13 from "../../assets/Artboard 13.jpg";
 const Portfolio = () => {
   
   const portfolioItems = [
-    { src: Artboard13, alt: "Artboard 13 Poster" },
-    { src: Artboard14, alt: "Artboard 14 Poster" },
+    { src: Artboard14, alt: "Artboard 13 Poster" },
+    { src: Artboard13, alt: "Artboard 14 Poster" },
     { src: Artboard15, alt: "Artboard 15 Poster" },
     { src: Artboard17, alt: "Artboard 17 Poster" },
     { src: BlackBlue, alt: "Black Blue Poster" },

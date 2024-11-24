@@ -1,8 +1,6 @@
-#portfolio {
-    padding: 40px 0;
-    background-color: #333;
-  }
-  
+#Yourwork{
+  background-color: #FAF3E0;
+}
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -12,10 +10,10 @@
   .mywork-title {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #2f49f8;
   }
   .mywork-title span{
-    background: linear-gradient(267deg, #f74c06 0.36%, #f9bc2c);
+    background:#2f49f8;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,4 +39,8 @@
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   }
-  
+  .mywork-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 0 20px #2f49f8, 0 0 30px #2f49f8;
+    cursor: pointer;
+  }  

@@ -1,6 +1,6 @@
 #Service {
     padding: 50px 20px;
-    background-color: #b6b0ae61;
+    background-color: #ffffff61;
   }
   
   .container {
@@ -40,7 +40,7 @@
   
   .service-card i {
     font-size: 3rem;
-    color: #f27121;
+    color: #2f49f8;
     margin-bottom: 15px;
   }
   
@@ -48,6 +48,7 @@
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
+    
   }
   
   .service-card p {
@@ -58,13 +59,13 @@
   
   .service-card a {
     font-size: 1rem;
-    color: #f27121;
+    color: #2f49f8;
     text-decoration: none;
     font-weight: bold;
   }
   
   .service-card a:hover {
-    color: #e94057;
+    color: #2f49f8;
   }
   .service-card {
     background: #fff;
@@ -75,12 +76,13 @@
     max-width: 300px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    z-index: 10;
   }
   
   .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-    background-color: #f27121; 
+    background-color: #2f49f8; 
     color: #fff;
   }
   
@@ -91,5 +93,14 @@
   .service-card:hover a {
     color: #fff; 
   }
+  .service-card:hover h2 {
+    color: #fff; 
+  }
+  .service-card:hover p {
+    color: #fff; 
+  }
+  
+  
+  
   
   

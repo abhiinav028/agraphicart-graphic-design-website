@@ -3,6 +3,8 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    background-color: #FAF3E0;
+    color: #000000;
 
 }
 
@@ -27,7 +29,7 @@
 }
 
 .hero h1 span {
-    background: linear-gradient(267deg, #f74c06 0.36%, #f9bc2c);
+    background: linear-gradient(267deg, #2f49f8 0.36%, #000000);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,7 +49,8 @@
     border-radius: 20px;
     margin-right: 10px;
     margin-right: 1000px;
-    background: linear-gradient(264deg, #f74c06 0.36%, #f9bc2c);
+color: aliceblue;
+    background: linear-gradient(264deg, #2f49f8 0.36%, #000000);
     cursor: pointer;
     transition: all 0.3s ease-in-out; 
 }
@@ -68,7 +71,7 @@
 }
 
 .hero-formore:hover {
-    border-color: #f9bc2c;
+    border-color: #2f49f8;
     box-shadow: 0 0 20px 5px rgba(249, 188, 44, 0.6); 
     transform: scale(1.05); 
 }

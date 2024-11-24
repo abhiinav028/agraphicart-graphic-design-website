@@ -1,21 +1,27 @@
- 
- *{
+/* Reset margin and padding for all elements */
+* {
   margin: 0;
   padding: 0;
-
 }
 
+/* Basic styles for the body */
 .body {
   height: 100vh;
   background: #efe3bd;
   color: #282828;
-  font-family: 'outfit';
+  font-family: 'Outfit', sans-serif;
 }
+
+/* Example blocking element class (preventing mouse events) */
 .blocking-element {
   pointer-events: none;
 }
 
-.interactive-area {
-  z-index: 10;
+/* Container class with overflow visible and relative positioning */
+.container {
+  overflow: visible;
   position: relative;
+  width: 100%; /* Ensure it takes full width */
+  height: 100%; /* Ensure it takes full height */
 }
+
