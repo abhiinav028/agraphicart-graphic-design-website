@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: white;
+  background-color: #FAF3E0;
   color: rgba(255, 255, 255, 0.975);
   font-family: Arial, sans-serif;
   gap: 20px;
@@ -12,10 +12,10 @@
 .contact-info {
   flex: 1; /* Adjusts width dynamically */
   min-width: 300px; /* Ensures the block doesn't shrink too much */
-  background: linear-gradient(to bottom, #f74c06, #f9bc2c);
+  background: linear-gradient(to bottom, #010f6f, #2f49f8);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(122, 103, 103, 0.3);
 }
 
 .contact-info h2 {
@@ -81,7 +81,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #f74c06;
+  border-color: #2f49f8;
   outline: none;
 }
 
@@ -99,10 +99,10 @@ textarea {
 }
 
 button {
-  width: 100%; /* Button spans full width */
+  width: 30%; /* Button spans full width */
   padding: 10px 20px;
   border: none;
-  background: #f74c06;
+  background: #2f49f8;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -112,7 +112,7 @@ button {
 }
 
 button:hover {
-  background: #f9bc2c;
+  background: #4c5dcb;
 }
 
 /* Success message styling */

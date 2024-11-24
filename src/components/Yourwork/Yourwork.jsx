@@ -1,23 +1,25 @@
 
 import "./Yourwork.css";
-import Artboard14 from "../../assets/black blue.png";
-import Artboard15 from "../../assets/Artboard 15.jpg";
-import Artboard17 from "../../assets/Artboard 17.jpg";
-import BlackBlue from "../../assets/black blue.png";
-import GaneshPoster from "../../assets/ganesh poster.png";
-import Artboard13 from "../../assets/Artboard 13.jpg";
+import Artboard1 from "../../assets/black blue.png";
+import Artboard2 from "../../assets/poster13.jpg";
+import Artboard3 from "../../assets/business man.png";
+import Artboard4 from "../../assets/mind poster.png";
+import Artboard5 from "../../assets/poster8.jpg";
+import Artboard6 from "../../assets/poster2.jpg";
+import Artboard7 from "../../assets/shoes poster 1.png";
+import Artboard8 from "../../assets/poster7.jpg";
 
 const Portfolio = () => {
   
   const portfolioItems = [
-    { src: Artboard14, alt: "Artboard 13 Poster" },
-    { src: Artboard13, alt: "Artboard 14 Poster" },
-    { src: Artboard15, alt: "Artboard 15 Poster" },
-    { src: Artboard17, alt: "Artboard 17 Poster" },
-    { src: BlackBlue, alt: "Black Blue Poster" },
-    { src: GaneshPoster, alt: "Artboard 17 Poster" },
-    { src: GaneshPoster, alt: "Artboard 17 Poster" },
-    { src: GaneshPoster, alt: "Artboard 17 Poster" },
+    { src: Artboard1, alt: "Artboard 13 Poster" },
+    { src: Artboard2, alt: "Artboard 14 Poster" },
+    { src: Artboard3, alt: "Artboard 15 Poster" },
+    { src: Artboard4, alt: "Artboard 17 Poster" },
+    { src: Artboard5, alt: "Black Blue Poster" },
+    { src: Artboard6, alt: "Artboard 17 Poster" },
+    { src: Artboard7, alt: "Artboard 17 Poster" },
+    { src: Artboard8, alt: "Artboard 17 Poster" },
   ];
 
   return (

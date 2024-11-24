@@ -21,7 +21,8 @@ function Contact() {
         (result) => {
           console.log("SUCCESS!", result.text);
           setSuccessMessage("The message was sent successfully!"); // Set success message
-          setTimeout(() => setSuccessMessage(""), 2000); // Clear message after 3 seconds
+          form.current.reset(); // Clear the form fields
+          setTimeout(() => setSuccessMessage(""), 1000); // Clear success message after 3 seconds
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -37,9 +38,9 @@ function Contact() {
         <p>
           <strong>Visit us</strong>
           <br />
-          Come say hello at our office HQ.
+          online mode:chat on whatapp
           <br />
-          67 Wisteria Way Croydon South VIC 3136 AU
+          {/* 67 Wisteria Way Croydon South VIC 3136 AU */}
         </p>
         <p>
           <strong>Chat to us</strong>
@@ -51,21 +52,21 @@ function Contact() {
         <p>
           <strong>Call us</strong>
           <br />
-          Mon-Fri from 8am to 5pm
+          sat-sun from 8am to 5pm
           <br />
-          (+995) 555-55-55-55
+          (+91) 93228 93520
         </p>
         <div className="social-media">
           <a href="#facebook">
             <i className="bi bi-facebook"></i>
           </a>
-          <a href="#linkedin">
+          <a href="#https://www.behance.net/abhinavv10">
             <i className="bi bi-behance"></i>
           </a>
-          <a href="#instagram">
+          <a href="https://www.instagram.com/agraphicart02/">
             <i className="bi bi-instagram"></i>
           </a>
-          <a href="#twitter">
+          <a href="https://x.com/abhiinav_28">
             <i className="bi bi-twitter-x"></i>
           </a>
         </div>
@@ -75,20 +76,21 @@ function Contact() {
       <div className="contact-form">
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-group">
-            <input type="text" name="firstName" placeholder="First Name" />
-            <input type="text" name="lastName" placeholder="Last Name" />
+            <input type="text" name="firstName" placeholder="First Name" required />
+            <input type="text" name="lastName" placeholder="Last Name" required />
           </div>
-          <input type="text" name="company" placeholder="Company Name" />
-          <input type="email" name="user_email" placeholder="Email" />
-          <input type="tel" name="phone" placeholder="Phone Number" />
+          <input type="text" name="company" placeholder="Company Name" required />
+          <input type="email" name="user_email" placeholder="Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
           <textarea
             name="message"
             placeholder="Tell us what we can help you with"
+            required
           ></textarea>
           <div className="form-checkbox">
-            <input type="checkbox" id="privacyPolicy" />
+            <input type="checkbox" id="privacyPolicy" required />
             <label htmlFor="privacyPolicy">
-              Id like to receive more information about the company. I
+              I d like to receive more information about the company. I
               understand and agree to the <a href="#privacy">Privacy Policy</a>.
             </label>
           </div>

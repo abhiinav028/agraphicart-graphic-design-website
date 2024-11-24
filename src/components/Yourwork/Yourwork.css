@@ -39,8 +39,8 @@
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   }
-  .mywork-container img:hover {
+  /* .mywork-container img:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 0 20px #2f49f8, 0 0 30px #2f49f8;
     cursor: pointer;
-  }  
+  }   */
