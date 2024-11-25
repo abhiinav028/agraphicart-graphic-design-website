@@ -1,9 +1,9 @@
-# AGraphicArt - Graphic Design Website 🎨
+# AGraphicArt - Website for Graphic Designer🎨
+![Uploading Screenshot 2024-11-25 233102.png…]()
 
 
 Welcome to the official website of **AGraphicArt**, where creativity meets innovation. This platform showcases a wide range of graphic design works, including logo designs, branding, typography, posters, and more. It also offers opportunities to collaborate and work with us on your next big project!
 
-![Uploading Screenshot 2024-11-25 233102.png…]()
 
 ## Features ✨
 
@@ -37,18 +37,3 @@ Welcome to the official website of **AGraphicArt**, where creativity meets innov
 4. **Work With Us:**  
    A dedicated section for initiating projects or hiring us for custom designs.
 
-## Getting Started 🚀
-
-Follow these steps to set up the project locally.
-
-### Prerequisites
-
-- Node.js installed (if using a JavaScript framework)
-- Basic knowledge of HTML, CSS, and JavaScript
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abhiinav028/agraphicart-website.git
-   cd agraphicart-website
