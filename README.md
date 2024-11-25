@@ -1,7 +1,8 @@
-# AGraphicArt - Graphic Design Portfolio 🎨
+# AGraphicArt - Graphic Design Website 🎨
 
 
 Welcome to the official website of **AGraphicArt**, where creativity meets innovation. This platform showcases a wide range of graphic design works, including logo designs, branding, typography, posters, and more. It also offers opportunities to collaborate and work with us on your next big project!
+
 ![Uploading Screenshot 2024-11-25 233102.png…]()
 
 ## Features ✨
