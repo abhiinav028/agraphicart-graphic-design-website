@@ -1,3 +1,4 @@
+![Screenshot 2024-11-25 233102](https://github.com/user-attachments/assets/c9dbd98e-7061-476d-95b5-851bd251e539)
 # AGraphicArt - Website for Graphic Designer🎨
 ![Uploading Screenshot 2024-11-25 233102.png…]()
 
