@@ -16,10 +16,9 @@ Welcome to the official website of **AGraphicArt**, where creativity meets innov
 ## Technologies Used 🛠️
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Framework:** ReactJS or Next.js (if applicable)
-- **Styling:** CSS, Bootstrap/Tailwind (if used)
-- **Backend:** Node.js/Express (if applicable)
-- **Hosting:** (e.g., Vercel, Netlify, or your chosen hosting provider)
+- **Framework:** ReactJS
+- **Styling:** CSS
+- **Hosting:**Vercel
 
 ## Sections 📂
 
