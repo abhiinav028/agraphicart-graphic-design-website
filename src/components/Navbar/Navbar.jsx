@@ -12,9 +12,9 @@ const Navbar = () => {
 
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
-        navbar.style.transform = 'translateY(-100%)'; // Hide navbar
+        navbar.style.transform = 'translateY(-100%)'; 
       } else {
-        navbar.style.transform = 'translateY(0)'; // Show navbar
+        navbar.style.transform = 'translateY(0)'; 
       }
       lastScrollY = window.scrollY;
     };
